@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>bootstrap-admin</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<link rel="stylesheet" href="public/css/style.css">
+<link rel="stylesheet" href="public/css/bootstrap.css">
+<link rel="stylesheet" href="public/css/font-awesome.css">
+<!-- <link rel="stylesheet/less" href="public/css/style.less" />
+<script src="public/js/less-1.5.0.min.js"></script> -->
+<script src="public/js/jquery-1.11.0.min.js"></script>
+<script src="public/js/bootstrap.js"></script>
+<!--[if lt IE 9]>
+<script src="public/js/html5shiv.js"></script>
+<![endif]-->
+</head>
+<body>
+<header role="banner" class="navbar navbar-inverse navbar-fixed-top bs-docs-nav">
+  <div class="container">
+    <div class="navbar-header">
+      <button data-target=".bs-navbar-collapse" data-toggle="collapse" type="button" class="navbar-toggle collapsed">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <a class="navbar-brand" href="#">Logo</a>
+    </div>
+
+    <nav role="navigation" class="collapse navbar-collapse bs-navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a data-toggle="dropdown" class="dropdown-toggle" href="javascript:void(0)">
+            管理员管理 <b class="caret"></b>
+          </a>
+          <ul class="dropdown-menu">
+            <li>
+              <a  href="#">添加管理员</a>
+              <a  href="#">管理员列表</a>
+            </li>
+          </ul>
+        </li>
+       
+        <li class="dropdown">
+          <a data-toggle="dropdown" class="dropdown-toggle" href="javascript:void(0)">
+            文章管理 <b class="caret"></b>
+          </a>
+          <ul class="dropdown-menu">
+            <li>
+              <a  href="#">添加文章</a>
+              <a  href="#">文章列表</a>
+            </li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a data-toggle="dropdown" class="dropdown-toggle" href="javascript:void(0)">
+            系统设置 <b class="caret"></b>
+          </a>
+          <ul class="dropdown-menu">
+            <li>
+              <a  href="#">基本设置</a>
+              <a  href="#">友情链接</a>
+            </li>
+          </ul>
+        </li>
+      
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            wikimo<b class="caret"></b>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="#">我的资料</a></li>
+            <li><a href="#">退出登录</a></li>
+            <li class="divider"></li>
+            <li><a href="#">返回前台</a></li>    
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+  </div>
+</header>  
+
+<div class="home-index">
+  <div class="container">
+    <div class="row">
+       <ol class="breadcrumb">
+        <li>首页</li>
+        <li>文章管理</li>
+        <li class="active">文章列表</li>
+      </ol>
+      <div class="search-box">
+        <form class="form-inline" role="form">
+          <div class="form-group">
+            <label class="sr-only" >关键词</label>
+            <input type="text" class="form-control input-large"  placeholder="搜索其实很简单...">
+          </div>
+     
+     
+          <button type="submit" class="btn btn-primary">Search...</button>
+        </form>
+      </div>
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>标题</th>
+            <th>分类</th>
+            <th>创建时间</th>
+            <th>操作</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td><a href="">沉着应对美国网络安全新攻势</a></td>
+            <td><a href="">[动态]</a></td>
+            <td>2014/08/08</td>
+            <td class="opts">
+              <a href="" class="icon-edit"></a> | 
+              <a href="" class="icon-trash"></a> 
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td><a href="">沉着应对美国网络安全新攻势</a></td>
+            <td><a href="">[动态]</a></td>
+            <td>2014/08/08</td>
+            <td class="opts">
+              <a href="" class="icon-edit"></a> | 
+              <a href="" class="icon-trash"></a> 
+            </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td><a href="">沉着应对美国网络安全新攻势</a></td>
+            <td><a href="">[动态]</a></td>
+            <td>2014/08/08</td>
+            <td class="opts">
+              <a href="" class="icon-edit"></a> | 
+              <a href="" class="icon-trash"></a> 
+            </td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td><a href="">沉着应对美国网络安全新攻势</a></td>
+            <td><a href="">[动态]</a></td>
+            <td>2014/08/08</td>
+            <td class="opts">
+              <a href="" class="icon-edit"></a> | 
+              <a href="" class="icon-trash"></a> 
+            </td>
+          </tr>
+          
+        </tbody>
+      </table>
+      <ul class="pagination">
+        <li><a href="#">&laquo;</a></li>
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">5</a></li>
+        <li><a href="#">&raquo;</a></li>
+      </ul>
+    </div>
+   
+  </div>
+</div>
+
+
+</body>
+</html>
