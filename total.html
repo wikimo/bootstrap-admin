@@ -6,7 +6,6 @@
 <title>bootstrap-admin</title>
 <meta name="description" content="" />
 <meta name="keywords" content="" />
-
 <link rel="stylesheet" href="public/css/bootstrap.css">
 <link rel="stylesheet" href="public/css/font-awesome.css">
 <link rel="stylesheet/less" href="public/css/admin.less" />
@@ -27,7 +26,6 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-
       <a class="navbar-brand" href="#">Logo</a>
     </div>
 
@@ -67,7 +65,6 @@
             </li>
           </ul>
         </li>
-      
       </ul>
 
       <ul class="nav navbar-nav navbar-right">
@@ -84,52 +81,77 @@
         </li>
       </ul>
     </nav>
-
   </div>
 </header>  
 
 <div class="home-index">
   <div class="container">
     <div class="row">
-      <ol class="breadcrumb">
+       <ol class="breadcrumb">
         <li>首页</li>
-        <li>系统设置</li>
-        <li class="active">基本设置</li>
+        <li>XXX品牌</li>
+        <li class="active">数据统计</li>
       </ol>
-      <div class="comm-box">
-        <form class="form-horizontal" role="form">
-          <div class="form-group">
-            <label class="col-sm-2 control-label">标题（SEO）</label>
-            <div class="col-sm-6">
-              <input type="text" class="form-control" i placeholder="请输入标题title">
-            </div>
-          </div>
-          <div class="form-group">
-            <label class="col-sm-2 control-label">关键词（SEO）</label>
-            <div class="col-sm-6">
-              <input type="password" class="form-control"  placeholder="请输入关键词keyword">
-            </div>
-          </div>
-          <div class="form-group">
-            <label class="col-sm-2 control-label">统计代码</label>
-            <div class="col-sm-6">
-              <textarea class="form-control" rows="3" placeholder="请将您的统计代码复制到这里"></textarea>
-            </div>
-          </div>
-          <div class="form-group">
-            <label class="col-sm-2 control-label">责任声明</label>
-            <div class="col-sm-6">
-              <textarea class="form-control" rows="6" placeholder="请输入声明内容"></textarea>
-            </div>
-          </div>
-         
-          <div class="form-group">
-            <div class="col-sm-offset-2 col-sm-10">
-              <button type="submit" class="btn btn-primary">更新</button>
-            </div>
-          </div>
-        </form>
-      </div>
+      <h4>品牌数据统计</h4>
+      <table class="table ">
+        <thead>
+          <tr>
+   
+            <th>统计类型</th>
+            <th>当前数据</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>今日订单收益</td>
+            <td>&#65509; 100.00</td>
+          </tr>
+          
+          <tr>
+            <td>累计订单收益</td>
+            <td>&#65509; 200.00</td>
+          </tr>
+          <tr>
+            <td>今日订单数</td>
+            <td>20</td>
+          </tr>
+          <tr>
+            <td>累计订单数</td>
+            <td>200</td>
+          </tr>
+        </tbody>
+      </table>
+      <hr>
+      <h4>店铺数据统计</h4>
+      <table class="table ">
+        <thead>
+          <tr>
+            <th>店铺名称</th>
+            <th>今日订单数</th>
+            <th>今日订单额</th>
+            <th>累计订单数</th>
+            <th>累计订单额</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>元一01</td>
+            <td>20</td>
+            <td>&#65509; 200.00</td>
+            <td>200</td>
+            <td>&#65509; 200.00</td>
+          </tr>
+          <tr>
+            <td>元一02</td>
+            <td>20</td>
+            <td>&#65509; 200.00</td>
+            <td>200</td>
+            <td>&#65509; 200.00</td>
+          </tr>
+       
+        </tbody>
+      </table>
+
     </div>
   </div>
 </div>
